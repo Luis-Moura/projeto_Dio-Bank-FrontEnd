@@ -2,7 +2,7 @@
 import React from 'react';
 import { ChakraProvider } from '@chakra-ui/react';
 import { Layout } from '../src/components/Layout';
-import { Login } from './components/login';
+import { Login } from './components/Login';
 
 const App: React.FC = () => {
 	return (
