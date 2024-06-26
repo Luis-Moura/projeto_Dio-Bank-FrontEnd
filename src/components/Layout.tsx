@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header } from './Header';
+import { Header } from './Header/Header';
 import { Box } from '@chakra-ui/react';
 
 export const Layout = ({ children }: any) => {

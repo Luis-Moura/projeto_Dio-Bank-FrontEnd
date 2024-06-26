@@ -1,22 +1,8 @@
+import { Flex } from '@chakra-ui/react';
 import React from 'react';
-import { Box, Flex } from '@chakra-ui/react';
 
-export const Header = () => {
-	return (
-		<Flex
-			height="12vh"
-			padding="2rem"
-			alignItems="center"
-			backgroundColor="black"
-			flexDirection="row"
-			color="white"
-			justifyContent="space-between"
-		>
-			<Box>
-				<a href="https://web.dio.me/home">
-					<img src="/images/logo-dio.svg" alt="dio-logo" />
-				</a>
-			</Box>
+export const NavItensHeader = () => {
+    return (
 			<Flex
 				width="55%"
 				height="10vh"
@@ -32,6 +18,5 @@ export const Header = () => {
 				<a href="https://web.dio.me/articles">Artigos</a>
 				<a href="https://web.dio.me/rooms">Rooms</a>
 			</Flex>
-		</Flex>
-	);
-};
+		);
+}
